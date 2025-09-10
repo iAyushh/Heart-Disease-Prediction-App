@@ -4,7 +4,7 @@ from src.predict import predict_heart_disease
 
 st.title("Heart Disease Prediction App")
 
-# User Inputs
+
 age = st.number_input("Age", 1, 120, 30)
 sex = st.selectbox("Sex (0 = Female, 1 = Male)", [0, 1])
 chest_pain_type = st.selectbox("Chest Pain Type (0 to 3)", [0, 1, 2, 3])
